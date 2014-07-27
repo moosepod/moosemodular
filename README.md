@@ -14,7 +14,7 @@ CV Generator
 
 This circuit generates a continuous voltage between 0-5V. It consists of:
 
-- A voltage regulator 
+- A 7805 5V voltage regulator 
 - A pot that adjusts the generated voltage
 - DC in jack
 - 1/4" output jack
