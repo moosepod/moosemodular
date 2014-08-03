@@ -23,3 +23,19 @@ This circuit generates a continuous voltage between 0-5V. It consists of:
 - SPST switch to toggle the CV on/off
 
 Panel diagram and schematic are included.
+
+VCO
+==============
+
+The VCO is driven off an Arduino Nano board running customn code using the Mozzi sound library. 
+
+Components:
+- Arduino nano
+- 100K Audio Pot
+- 1/4" jack x2
+- Momentary pushbutton
+- 4 LEDS
+
+The VCO takes an input voltage of 0-5V and uses it to set the frequency of an oscillator, which is then output on the output CV jack. 4 wave forms -- sin, square, triangle and sawtooth -- are avaliable. A pushbutton toggles between them, and LEDs indicate which is active.
+
+Possible option includes a pulse-width control.
