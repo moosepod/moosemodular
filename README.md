@@ -32,10 +32,22 @@ The VCO is driven off an Arduino Nano board running customn code using the Mozzi
 Components:
 - Arduino nano
 - 100K Audio Pot
+- DC In Jack
 - 1/4" jack x2
 - Momentary pushbutton
 - 4 LEDS
 
-The VCO takes an input voltage of 0-5V and uses it to set the frequency of an oscillator, which is then output on the output CV jack. 4 wave forms -- sin, square, triangle and sawtooth -- are avaliable. A pushbutton toggles between them, and LEDs indicate which is active.
+The VCO takes an input voltage of 0-5V and uses it to set the frequency of an oscillator, which is then output on the output CV jack. 4 wave forms -- sin, square, triangle and sawtooth -- are available. A pushbutton toggles between them, and LEDs indicate which is active.
 
-Possible option includes a pulse-width control.
+TO ADD:
+- Activity LED (blinks with freq)
+- Power LED 
+- Octave control
+- Pulse width control?
+
+Other modules (eventually)
+==========================
+- LFO
+- VCF
+- VCA
+- Mixer
